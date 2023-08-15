@@ -5,7 +5,7 @@ import style from  './HeaderComponent.module.css'
 
 export default function Header() {
     return(
-        <div>
+        <div className={style.header}>
             <Image className={style.logo} src={logo} alt='Imagem da logo'/>
             <Image className={style.menu} src={menu} alt='Imagem menu'/>
         </div>

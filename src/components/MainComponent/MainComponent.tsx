@@ -4,7 +4,7 @@ import style from './MainComponent.module.css'
 
 export default function Main() {
     return(
-        <div>
+        <div className={style.main}>
             <h1 className={style.title}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, earum?</h1>
             <Image className={style.background} src={background} alt="Image do fundo"/>
             <div>
