@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(184, 187, 184);
+    font-size: 12px;
+    color: #fff;
+    padding: 15px;
+
+}
+
+.logo_footer {
+    all: unset;
+    width: 128px;
+    margin-bottom: 15px;
+}
+
+.social_media {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.social_media li{
+    all: unset;
+}
+
+.social_media_img {
+    all: unset;
+    width: 32px;
+    margin-right: 5px;
+}
