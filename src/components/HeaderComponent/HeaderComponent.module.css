@@ -1,14 +1,55 @@
 .header {
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 30px 0;
+    padding: 10px 30px 10px;
     background-color: #fff;
 }
 
 .logo {
     width: 128px;  
+}
+
+.dropdown {
+    background-color: rgb(44, 170, 179);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    transition: 3s;
+    transform: '${openMenu ? '' : ''}';
+    
+}
+
+.dropdown_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px 10px;
+    height: 10vh;
+}
+
+.dropdown_logo {
+    all: unset;
+    width: 128px; 
+}
+
+.dropdown ul {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px 0 ; 
+}
+
+.link {
+    all: unset;
+    font-size: 18px;
+    color: #fff;
+
+    margin-bottom: 10px;
+    font-weight: 600;  
 }

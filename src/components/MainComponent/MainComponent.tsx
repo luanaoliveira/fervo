@@ -1,6 +1,7 @@
 import Image from "next/image"
 import background from '../../assets/imagens/background.svg'
 import style from './MainComponent.module.css'
+import logo from '../../assets/imagens/fervo_logo.svg'
 
 export default function Main() {
     return(
