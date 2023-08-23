@@ -1,29 +1,24 @@
 .footer {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: rgb(184, 187, 184);
-    font-size: 12px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #000;
     color: #fff;
-    padding: 20px;
+    padding: 0 0 16px ;
 }
 
 .logo_footer {
     all: unset;
-    width: 128px;
-    margin-bottom: 15px;
+    width: 160px;
 }
 
-.social_media {
-    display: flex;
-    margin-bottom: 5px;
-}
-
-.social_media li{
+.linkedin {
     all: unset;
+    width: 26px;
 }
 
-.social_media_img {
-    all: unset;
-    width: 32px;
-    margin-right: 5px;
+.copyright {
+    margin-top: 25px;
 }

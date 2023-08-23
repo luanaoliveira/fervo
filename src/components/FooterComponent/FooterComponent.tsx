@@ -1,7 +1,6 @@
 import Image from 'next/image'
-import logo from '../../assets/imagens/fervo_logo.svg'
-import facebook from '../../assets/imagens/facebook.svg'
-import instagram from '../../assets/imagens/instagram.svg'
+import logo from '../../assets/imagens/fervo_logo_branco.svg'
+import linkedin from '../../assets/imagens/linkedin.svg'
 import style from './FooterComponent.module.css'
 
 export default function Footer() {
@@ -9,14 +8,11 @@ export default function Footer() {
         <div className={style.footer}>
             <Image className={style.logo_footer} src={logo} alt='Imagem da logo'/>
             <div>
-                <ul className={style.social_media}>
-                    <li><a href="#"><Image className={style.social_media_img} src={facebook} alt='Ícone facebook'/></a></li>
-                    <li><a href="#"><Image  className={style.social_media_img} src={instagram} alt='Ícone instagram'/></a></li>
+                <ul>
+                    <a href="#"><Image className={style.linkedin} src={linkedin} alt='Ícone linkedin'/></a>
                 </ul>
             </div>
-            <div>
-                <p className={style.Copyright}>Copyright &copy; Fervo</p>
-            </div>
+            <p className={style.copyright}>Copyright &copy; Fervo</p>
         </div>
     )
 }
